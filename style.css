@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css?family=Redressed&family=Work+Sans&display:swap');
+:root{
+    --primary-color: #059669;
+    --secondary-color: #7c3aed ;
+
+}
+     
+body{
+    font-family: 'Redressed', cursive;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.hr{
+    margin: 2rem, 2rem;
+}
+.para{
+    padding-bottom: 1rem;
+}
+   /**typography**/
+
+.typography{
+    padding: 0rem 0rem;
+}
+.small{
+    padding-bottom: 1rem;
+}
+  /**container**/
+
+.container{
+    padding: 0rem 0rem;
+    
+}
+#c1{
+    background-color: gray;
+}
+.container-fluid{
+    padding: 1rem 1rem;
+    padding-left: 1rem;
+}
+
+.container-center{
+    max-width: 600px;
+    margin: auto;
+    padding-bottom: 1rem;
+}
+  /**link**/
+
+.link {
+    box-sizing: border-box;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+}
+.primary-link{
+    background-color: var( --primary-color);
+    border-radius: 0.5rem;
+    color: white;
+    display: block;
+    max-width: 140px;
+    margin: auto;
+}
+.secondary-link{
+    color: var( --primary-color);
+    border: 1px solid var(--primary-color);
+    display: block;
+    border-radius: 0.5rem;
+    max-width: 140px;
+    margin: auto;
+} 
+.link .link-inline{
+    display: inline;
+}   
+  /**list**/
+
+.list-non-bullet{
+     list-style: none;
+}  
+.list-inline{
+    display: inline;
+    padding: 0rem 0.5rem;
+}
+.reverse{
+    padding-right: 0.5rem;
+}
+  /**navigation**/
+
+.navigation {
+    background-color: blue;
+    color: aliceblue;
+    border-radius: 1rem;
+    margin: 0.5rem;
+    
+}
+.navigation .nav-brand{
+    padding: 0.5rem 0.5rem;
+    font-weight: bold;
+}
+.navigation .nav-pills{
+    text-align: right;
+    padding-bottom: 0.5rem;
+}
+.link2 {
+    color: white;
+    text-decoration: none;
+}
+.link-active{
+    font-weight: bold;
+}
+    /**header**/
+
+.hero{
+    background-color: #f0abfc;
+    color: white;
+    padding: 1rem 0rem;
+    margin: 0.5rem;
+    border-radius: 1rem;
+    
+}    
+.hero .hero-img{
+    width: 300px;
+    max-width: 80%;
+    display: block;
+    margin: auto;
+    
+    
+}   
+.hero .hero-heading{
+    text-align: center;
+    color: #fff8e1;
+    text-size-adjust: 80%;
+} 
+.hero .heading-inverted{
+    color: #ad1457;
+}
+ 
+   /**section**/
+
+.section{
+    background-color: #cbd5e1;
+    padding-top: 0.2rem;
+    padding: 1rem;
+    margin: 0.5rem;
+    text-align: center;
+    display: block;
+    border-radius: 1rem;
+}
+.section4{
+    text-align: center;
+    padding-top: 0.2rem;
+    padding: 1rem;
+    margin: 0.5rem;
+}
+.footer{
+    background-color: blue;
+    text-align: center;
+    color:beige;
+    text-decoration: bold;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+.footer .footer-link{
+    color: white;
+    text-decoration: none;
+    padding: 1rem 0.5rem;
+}
